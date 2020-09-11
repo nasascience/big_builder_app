@@ -1,0 +1,22 @@
+:host {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  pointer-events: none;
+}
+
+svg {
+  position: absolute;
+  overflow: visible;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.section-button {
+  pointer-events: all;
+  z-index: 99999;
+  cursor: pointer;
+}
